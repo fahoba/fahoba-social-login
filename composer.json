@@ -2,12 +2,12 @@
     "name": "fahoba/social-login",
     "description": "Sign in with Google and other OAuth providers for existing Fahoba accounts, switched on by the operator",
     "type": "library",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "PolyForm-Shield-1.0.0",
     "require": {
         "php": "^8.5",
         "laravel/socialite": "^5.23",
-        "fahoba/plugin-api": "^0.1"
+        "fahoba/plugin-api": "^0.1 || ^0.2"
     },
     "autoload": {
         "psr-4": {
